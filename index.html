@@ -12,9 +12,29 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <h1>News desk!</h1>
-    <div id="newsArea"></div>
+     <select name="" id="category" onchange="searchByCategory()">
+      <option value="Business">Business</option>
+      <option value="General">General</option>
+      <option value="Sports">Sports</option>
+      <option value="Technology">Technology</option>
+    </select>
+    <div id="sourceArea">ss</div>
+    <div id="newsArea">
+      <div id="news" style="display: flex; border:1px solid grey">
+            <img style="width:200px"
+                src="https://www.bbc.co.uk/news/special/2015/newsspec_10857/bbc_news_logo.png?cb=1" />
+            <div>
+                <h2>news title</h2>
+                <p>say something details,say something details say something details say something detailssay something
+                    detailssay something detailssay something detailssay something details</p>
+                <div>2020-March-11th</div>
+                <div>BBC NEWS</div>
+            </div>
+        </div>
+    </div>
     <button onclick="loadMore()">Load more</button>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

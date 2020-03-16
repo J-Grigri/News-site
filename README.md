@@ -21,7 +21,7 @@ The following **required** functionalities are completed (this is a sample):
 * [X] The user can see a list of the 20 latest top news stories, loaded dynamically from our api*
 * [X] For each story, the user sees a headline, the source, a link to more, and an image
 * [X] The user can see the total number of stories currently shown
-* [ ] The user can click a link at the bottom of the page to load the next 20 stories. The page should not refresh; the stories should simply be added to the bottom
+* [X] The user can click a link at the bottom of the page to load the next 20 stories. The page should not refresh; the stories should simply be added to the bottom
 * [X] The user can see how long ago the story was published in a human-friendly format; e.g. "15 minutes ago". To accomplish this, we recommend you use momentjs. Please load it into your page using cdnjs or jsdelivr (these are called CDNs)
 
 The following **optional** features are implemented:
